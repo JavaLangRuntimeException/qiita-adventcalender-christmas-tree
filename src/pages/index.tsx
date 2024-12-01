@@ -18,7 +18,7 @@ const Home = () => {
   const fetchArticleCount = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`/api/qiita?user_id=${encodeURIComponent(userId)}`);
+      const response = await fetch(`https://ciyc3gk50i.execute-api.ap-northeast-1.amazonaws.com/QiitaAdventCalenderAPI?user_id=${encodeURIComponent(userId)}`);
       const data = await response.json();
       setCount(data.count);
     } catch (error) {
@@ -51,7 +51,7 @@ const Home = () => {
 
   return (
     <div
-      className={`flex flex-col items-center justify-center min-h-screen bg-christmasGreen text-white ${kaiseiDecol.className}`}
+      className={`flex flex-col items-center justify-center min-h-screen bg-christmasGreen text-blue-300 ${kaiseiDecol.className}`}
       style={{
         backgroundImage: 'url("/images/snow_background.jpg")',
         backgroundSize: 'cover',
