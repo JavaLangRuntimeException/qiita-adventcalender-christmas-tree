@@ -1,0 +1,152 @@
+<svg width="400" height="500" version="1.1"
+    xmlns="http://www.w3.org/2000/svg">
+      <rect x="190" y="470" width="20" height="30" fill="#8B4513" />
+  <rect x="199" y="86" width="2" height="384" fill="#8B4513" >
+      
+    </rect>
+  <polygon points="20.0,450.0 380.0,450.0 200,437.2" fill="green" >
+      
+    </polygon>
+  <polygon points="31.428571428571416,424.4 368.57142857142856,424.4 200,411.59999999999997" fill="green" >
+      
+    </polygon>
+  <polygon points="42.85714285714286,398.8 357.1428571428571,398.8 200,386.0" fill="green" >
+      
+    </polygon>
+  <polygon points="54.28571428571428,373.2 345.7142857142857,373.2 200,360.4" fill="green" >
+      
+    </polygon>
+  <polygon points="65.71428571428572,347.6 334.2857142857143,347.6 200,334.8" fill="green" >
+      
+    </polygon>
+  <polygon points="77.14285714285714,322.0 322.8571428571429,322.0 200,309.2" fill="green" >
+      
+    </polygon>
+  <polygon points="88.57142857142857,296.4 311.42857142857144,296.4 200,283.59999999999997" fill="green" >
+      
+    </polygon>
+  <polygon points="100.0,270.79999999999995 300.0,270.79999999999995 200,257.99999999999994" fill="green" >
+      
+    </polygon>
+  <polygon points="111.42857142857143,245.2 288.57142857142856,245.2 200,232.39999999999998" fill="green" >
+      
+    </polygon>
+  <polygon points="122.85714285714286,219.6 277.1428571428571,219.6 200,206.79999999999998" fill="green" >
+      
+    </polygon>
+  <polygon points="134.28571428571428,194.0 265.7142857142857,194.0 200,181.2" fill="green" >
+      
+    </polygon>
+  <polygon points="145.71428571428572,168.39999999999998 254.28571428571428,168.39999999999998 200,155.59999999999997" fill="green" >
+      
+    </polygon>
+  <polygon points="157.14285714285714,142.79999999999995 242.85714285714286,142.79999999999995 200,129.99999999999994" fill="green" >
+      
+    </polygon>
+  <polygon points="168.57142857142858,117.19999999999999 231.42857142857142,117.19999999999999 200,104.39999999999999" fill="green" >
+      
+    </polygon>
+  <polygon points="180.0,91.59999999999997 220.0,91.59999999999997 200,78.79999999999997" fill="green" >
+      
+    </polygon>
+  <g>
+      <circle cx="301.87254882957586" cy="416.3353342761432" r="3.137645786636319" fill="silver" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.7011276738922507s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="302.0273878694633" cy="140.51681023912585" r="1.9489143588216435" fill="gold" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.5773585022946428s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="244.64075527249454" cy="168.036989527664" r="3.074474196339322" fill="purple" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="1.0892830771351092s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="202.39307173520518" cy="200.48889916192695" r="2.8796641247583215" fill="blue" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.519553613813708s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="216.66915536752626" cy="385.74152139970624" r="2.7572496964458066" fill="green" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.9469977795479712s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="152.1699000394171" cy="152.28177629367187" r="2.9635622820955234" fill="green" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="1.4520841030337355s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <polygon points="369.88836515915517,124.38564712259407 372.05184862746466,128.76934343626962 376.88954473080173,129.47230182759768 373.3889549449785,132.8845335371348 374.2153320957742,137.70268202932806 369.88836515915517,135.4278608896366 365.5613982225361,137.70268202932806 366.38777537333186,132.8845335371348 362.8871855875086,129.47230182759768 367.7248816908457,128.76934343626962" fill="red" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.7632473425870508s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <polygon points="69.55827799173827,219.25597598916553 71.16812861243947,222.51788962747514 74.7678640339476,223.04096180213375 72.16307101284293,225.5800074736345 72.77797923314068,229.16519749445246 69.55827799173827,227.47250038011862 66.33857675033586,229.16519749445246 66.9534849706336,225.5800074736345 64.34869194952893,223.04096180213375 67.94842737103706,222.51788962747514" fill="red" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.7442033842183317s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <path d="M55.62549487518932,415.7525550051732 c-4.94071455419097,0 -4.94071455419097,9.88142910838194 0,9.88142910838194 c4.94071455419097,0 4.94071455419097,-9.88142910838194 0,-9.88142910838194 z" fill="red" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.938301601421755s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="119.3874338494063" cy="332.78794349107784" r="4.801785253965865" fill="silver" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.9276834698886537s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <path d="M263.87850094671717,256.5477068470959 c-3.6590932594463164,0 -3.6590932594463164,7.318186518892633 0,7.318186518892633 c3.6590932594463164,0 3.6590932594463164,-7.318186518892633 0,-7.318186518892633 z" fill="blue" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.8948520146695164s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="45.249385619987166" cy="441.0887631709942" r="4.2909513777263495" fill="purple" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="1.4346161317788688s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="233.70511326371224" cy="137.37796752855365" r="2.1112142553914577" fill="green" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="1.369906671030361s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="123.04800515327143" cy="265.9035673442851" r="4.409606644997098" fill="red" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.8077042805978313s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="258.01153807319145" cy="265.81268656866234" r="3.1498978271620754" fill="green" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.5071781518441758s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="120.39834548171613" cy="356.2649238689196" r="1.729067544380406" fill="purple" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.7397781443805422s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <path d="M330.7885575344501,216.30712148187467 c-3.1320533907097015,0 -3.1320533907097015,6.264106781419403 0,6.264106781419403 c3.1320533907097015,0 3.1320533907097015,-6.264106781419403 0,-6.264106781419403 z" fill="green" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.9713523765292376s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <polygon points="363.7384728470777,402.3615511175375 365.89424008824756,406.72961264732726 370.71468218317057,407.430063884477 367.2265775151241,410.83012561198774 368.05000732941744,415.631089813798 363.7384728470777,413.3643819954575 359.4269383647379,415.631089813798 360.2503681790312,410.83012561198774 356.7622635109848,407.430063884477 361.5827056059078,406.72961264732726" fill="silver" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.7343935903820218s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="123.59193704431077" cy="357.14658819857516" r="2.53525668228961" fill="silver" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="0.6032502531905518s" repeatCount="indefinite" />
+    </g>
+  <g>
+      <circle cx="210.07428093633405" cy="122.00053991769329" r="3.6984386354179413" fill="silver" />
+
+      <animate attributeName="opacity" values="1;0;1" dur="1.3665963690794662s" repeatCount="indefinite" />
+    </g>
+</svg>

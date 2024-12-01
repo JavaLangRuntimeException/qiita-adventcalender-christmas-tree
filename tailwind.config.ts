@@ -11,6 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        christmasRed: '#C1272D',
+        christmasGreen: '#007A33',
+        christmasGold: '#FEDD00',
       },
     },
   },
