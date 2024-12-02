@@ -1,5 +1,3 @@
-// pages/_app.tsx
-
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import { Kaisei_Decol } from 'next/font/google';

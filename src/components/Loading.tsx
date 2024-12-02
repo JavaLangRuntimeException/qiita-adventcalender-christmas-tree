@@ -1,5 +1,3 @@
-// components/Loading.tsx
-
 import React from 'react';
 import { FaSnowman } from 'react-icons/fa';
 

@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 雪のアニメーション */
 body {
   position: relative;
   overflow: hidden;
