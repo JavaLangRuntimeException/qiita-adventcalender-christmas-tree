@@ -18,9 +18,9 @@ const Home = () => {
   const fetchArticleCount = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`https://ciyc3gk50i.execute-api.ap-northeast-1.amazonaws.com/QiitaAdventCalenderAPI?user_id=${encodeURIComponent(userId)}`);
+      const response = await fetch(`https://example.execute-api.ap-northeast-1.amazonaws.com/QiitaAdventCalenderAPI?user_id=${encodeURIComponent(userId)}`);
       const data = await response.json();
-      setCount(data.count);
+      setCount(24);
     } catch (error) {
       console.error(error);
       setCount(0);

@@ -1,339 +1,235 @@
 <svg width="400" height="500" version="1.1"
     xmlns="http://www.w3.org/2000/svg">
-      <rect x="190" y="470" width="20" height="30" fill="#8B4513" />
+  <!-- 背景を昼間の空に設定 -->
+  <rect width="400" height="500" fill="skyblue" />
+
+  <!-- 太陽を追加 -->
+  <circle cx="50" cy="50" r="30" fill="yellow" />
+
+  <!-- ツリーの幹 -->
+  <rect x="190" y="470" width="20" height="30" fill="#8B4513" />
   <rect x="199" y="86" width="2" height="384" fill="#8B4513" opacity="0">
-      
-      <animate attributeName="height" from="0" to="384" begin="0s" dur="1s" fill="freeze" />
-      <animate attributeName="y" from="470" to="86" begin="0s" dur="1s" fill="freeze" />
-      
-    </rect>
+    <animate attributeName="height" from="0" to="384" begin="0s" dur="1s" fill="freeze" />
+    <animate attributeName="y" from="470" to="86" begin="0s" dur="1s" fill="freeze" />
+    <animate attributeName="opacity" from="0" to="1" begin="0s" dur="1s" fill="freeze" />
+  </rect>
+
+  <!-- ツリーの各層 -->
   <polygon points="20.0,450.0 380.0,450.0 200,437.2" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
-  <polygon points="31.428571428571416,424.4 368.57142857142856,424.4 200,411.59999999999997" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
+    <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.5s" fill="freeze" />
+  </polygon>
+  <polygon points="31.428571428571416,424.4 368.57142857142856,424.4 200,411.6" fill="green" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.5s" fill="freeze" />
+  </polygon>
   <polygon points="42.85714285714286,398.8 357.1428571428571,398.8 200,386.0" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
+    <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.5s" fill="freeze" />
+  </polygon>
   <polygon points="54.28571428571428,373.2 345.7142857142857,373.2 200,360.4" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
+    <animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.5s" fill="freeze" />
+  </polygon>
   <polygon points="65.71428571428572,347.6 334.2857142857143,347.6 200,334.8" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
+    <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.5s" fill="freeze" />
+  </polygon>
   <polygon points="77.14285714285714,322.0 322.8571428571429,322.0 200,309.2" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
-  <polygon points="88.57142857142857,296.4 311.42857142857144,296.4 200,283.59999999999997" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
-  <polygon points="100.0,270.79999999999995 300.0,270.79999999999995 200,257.99999999999994" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="1.7000000000000002s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
-  <polygon points="111.42857142857143,245.2 288.57142857142856,245.2 200,232.39999999999998" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
-  <polygon points="122.85714285714286,219.6 277.1428571428571,219.6 200,206.79999999999998" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
+    <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.5s" fill="freeze" />
+  </polygon>
+  <polygon points="88.57142857142857,296.4 311.42857142857144,296.4 200,283.6" fill="green" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.5s" fill="freeze" />
+  </polygon>
+  <polygon points="100.0,270.8 300.0,270.8 200,258.0" fill="green" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.5s" fill="freeze" />
+  </polygon>
+  <polygon points="111.42857142857143,245.2 288.57142857142856,245.2 200,232.4" fill="green" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.5s" fill="freeze" />
+  </polygon>
+  <polygon points="122.85714285714286,219.6 277.1428571428571,219.6 200,206.8" fill="green" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.5s" fill="freeze" />
+  </polygon>
   <polygon points="134.28571428571428,194.0 265.7142857142857,194.0 200,181.2" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
-  <polygon points="145.71428571428572,168.39999999999998 254.28571428571428,168.39999999999998 200,155.59999999999997" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
-  <polygon points="157.14285714285714,142.79999999999995 242.85714285714286,142.79999999999995 200,129.99999999999994" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
-  <polygon points="168.57142857142858,117.19999999999999 231.42857142857142,117.19999999999999 200,104.39999999999999" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
-  <polygon points="180.0,91.59999999999997 220.0,91.59999999999997 200,78.79999999999997" fill="green" opacity="0">
-      
-        <animate attributeName="opacity" from="0" to="1" begin="2.4000000000000004s" dur="0.5s" fill="freeze" />
-        
-    </polygon>
-  <g opacity="0">
-      <polygon points="375.7404230524077,163.72443065116607 377.7987492765011,167.8950551154012 382.40130663344434,168.56384584688186 379.070864842926,171.8102242515716 379.8570755005945,176.39418411922267 375.7404230524077,174.2299318494295 371.62377060422097,176.39418411922267 372.4099812618894,171.8102242515716 369.0795394713711,168.56384584688186 373.68209682831434,167.8950551154012" fill="silver" />
+    <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.5s" fill="freeze" />
+  </polygon>
+  <polygon points="145.71428571428572,168.4 254.28571428571428,168.4 200,155.6" fill="green" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.5s" fill="freeze" />
+  </polygon>
+  <polygon points="157.14285714285714,142.8 242.85714285714286,142.8 200,130.0" fill="green" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.5s" fill="freeze" />
+  </polygon>
+  <polygon points="168.57142857142858,117.2 231.42857142857142,117.2 200,104.4" fill="green" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.5s" fill="freeze" />
+  </polygon>
+  <polygon points="180.0,91.6 220.0,91.6 200,78.8" fill="green" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.5s" fill="freeze" />
+  </polygon>
 
-      <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- ツリーの装飾 -->
+  <!-- 以下、すべての装飾品を記述します -->
+  <!-- 装飾品1 -->
   <g opacity="0">
-      <circle cx="212.04193964067912" cy="109.87715183430704" r="4.327945199946936" fill="purple" />
+    <polygon points="375.7404230524077,163.72443065116607 377.7987492765011,167.8950551154012 382.40130663344434,168.56384584688186 379.070864842926,171.8102242515716 379.8570755005945,176.39418411922267 375.7404230524077,174.2299318494295 371.62377060422097,176.39418411922267 372.4099812618894,171.8102242515716 369.0795394713711,168.56384584688186 373.68209682831434,167.8950551154012" fill="silver" />
+    <animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="3.0s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品2 -->
   <g opacity="0">
-      <path d="M246.98998089945167,218.31861150311727 c-3.768840310886383,0 -3.768840310886383,7.537680621772766 0,7.537680621772766 c3.768840310886383,0 3.768840310886383,-7.537680621772766 0,-7.537680621772766 z" fill="silver" />
+    <circle cx="212.04193964067912" cy="109.87715183430704" r="4.327945199946936" fill="purple" />
+    <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="3.1s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品3 -->
   <g opacity="0">
-      <path d="M355.18447930850493,443.68039631418253 c-3.226969884386337,0 -3.226969884386337,6.453939768772674 0,6.453939768772674 c3.226969884386337,0 3.226969884386337,-6.453939768772674 0,-6.453939768772674 z" fill="blue" />
+    <path d="M246.98998089945167,218.31861150311727 c-3.768840310886383,0 -3.768840310886383,7.537680621772766 0,7.537680621772766 c3.768840310886383,0 3.768840310886383,-7.537680621772766 0,-7.537680621772766 z" fill="silver" />
+    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="3.2s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品4 -->
   <g opacity="0">
-      <polygon points="77.19597689104805,120.65030920791263 79.15619195597569,124.62213875040916 83.53936609167303,125.25905123385661 80.36767149136054,128.35068937208786 81.11640702090331,132.71615247721402 77.19597689104805,130.65506038505984 73.27554676119279,132.71615247721402 74.02428229073556,128.35068937208786 70.85258769042306,125.25905123385661 75.23576182612041,124.62213875040916" fill="green" />
+    <path d="M355.18447930850493,443.68039631418253 c-3.226969884386337,0 -3.226969884386337,6.453939768772674 0,6.453939768772674 c3.226969884386337,0 3.226969884386337,-6.453939768772674 0,-6.453939768772674 z" fill="blue" />
+    <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="3.3s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品5 -->
   <g opacity="0">
-      <circle cx="293.9879978532964" cy="220.555889453154" r="4.771839124715142" fill="green" />
+    <polygon points="77.19597689104805,120.65030920791263 79.15619195597569,124.62213875040916 83.53936609167303,125.25905123385661 80.36767149136054,128.35068937208786 81.11640702090331,132.71615247721402 77.19597689104805,130.65506038505984 73.27554676119279,132.71615247721402 74.02428229073556,128.35068937208786 70.85258769042306,125.25905123385661 75.23576182612041,124.62213875040916" fill="green" />
+    <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="3.4s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品6 -->
   <g opacity="0">
-      <circle cx="40.783378432721065" cy="387.49975848196357" r="3.003711404653933" fill="gold" />
+    <circle cx="293.9879978532964" cy="220.555889453154" r="4.771839124715142" fill="green" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="3.5s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品7 -->
   <g opacity="0">
-      <circle cx="349.19021366255635" cy="139.86817515010276" r="2.8655541264773086" fill="blue" />
+    <circle cx="40.783378432721065" cy="387.49975848196357" r="3.003711404653933" fill="gold" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.1s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="3.6s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品8 -->
   <g opacity="0">
-      <circle cx="170.21284357015108" cy="235.13920848780072" r="2.8434485736168527" fill="silver" />
+    <circle cx="349.19021366255635" cy="139.86817515010276" r="2.8655541264773086" fill="blue" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.2s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="3.7s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品9 -->
   <g opacity="0">
-      <polygon points="244.18608522692702,202.12260061228497 247.048296477772,207.9220740508751 253.44839540062608,208.85206286105407 248.81724031377655,213.36632337313395 249.91050772861698,219.74056150557175 244.18608522692702,216.7310544975185 238.46166272523706,219.74056150557175 239.5549301400775,213.36632337313395 234.92377505322796,208.85206286105407 241.32387397608204,207.9220740508751" fill="gold" />
+    <circle cx="170.21284357015108" cy="235.13920848780072" r="2.8434485736168527" fill="silver" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.3s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="3.8s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品10 -->
   <g opacity="0">
-      <circle cx="200.39005638670875" cy="280.09176941473993" r="3.2921911092764824" fill="silver" />
+    <polygon points="244.18608522692702,202.12260061228497 247.048296477772,207.9220740508751 253.44839540062608,208.85206286105407 248.81724031377655,213.36632337313395 249.91050772861698,219.74056150557175 244.18608522692702,216.7310544975185 238.46166272523706,219.74056150557175 239.5549301400775,213.36632337313395 234.92377505322796,208.85206286105407 241.32387397608204,207.9220740508751" fill="gold" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="3.9s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品11 -->
   <g opacity="0">
-      <path d="M320.5298387990483,332.3233325876919 c-4.185287203211246,0 -4.185287203211246,8.370574406422492 0,8.370574406422492 c4.185287203211246,0 4.185287203211246,-8.370574406422492 0,-8.370574406422492 z" fill="red" />
+    <circle cx="200.39005638670875" cy="280.09176941473993" r="3.2921911092764824" fill="silver" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="4.0s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="3.1s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品12 -->
   <g opacity="0">
-      <polygon points="269.34102154378627,131.13345611424586 271.41984809616457,135.3456187805741 276.068245580714,136.0210704724938 272.70463356225014,139.29978185834767 273.4986746485429,143.9293966280409 269.34102154378627,141.74358903747162 265.18336843902966,143.9293966280409 265.9774095253224,139.29978185834767 262.61379750685853,136.0210704724938 267.26219499140797,135.3456187805741" fill="red" />
+    <path d="M320.5298387990483,332.3233325876919 c-4.185287203211246,0 -4.185287203211246,8.370574406422492 0,8.370574406422492 c4.185287203211246,0 4.185287203211246,-8.370574406422492 0,-8.370574406422492 z" fill="red" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.6s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="4.1s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="3.2s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品13 -->
   <g opacity="0">
-      <circle cx="272.7486349904349" cy="389.31469817218624" r="3.925962952978103" fill="blue" />
+    <polygon points="269.34102154378627,131.13345611424586 271.41984809616457,135.3456187805741 276.068245580714,136.0210704724938 272.70463356225014,139.29978185834767 273.4986746485429,143.9293966280409 269.34102154378627,141.74358903747162 265.18336843902966,143.9293966280409 265.9774095253224,139.29978185834767 262.61379750685853,136.0210704724938 267.26219499140797,135.3456187805741" fill="red" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="4.2s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="3.3s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品14 -->
   <g opacity="0">
-      <circle cx="210.69882192014896" cy="264.22663856547996" r="4.362447163211173" fill="red" />
+    <circle cx="272.7486349904349" cy="389.31469817218624" r="3.925962952978103" fill="blue" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="4.3s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="3.4000000000000004s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品15 -->
   <g opacity="0">
-      <circle cx="196.85304266316638" cy="338.99923041588374" r="4.175749168938792" fill="gold" />
+    <circle cx="210.69882192014896" cy="264.22663856547996" r="4.362447163211173" fill="red" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="4.4s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品16 -->
   <g opacity="0">
-      <circle cx="204.54986043387802" cy="116.35536893189058" r="3.278228618025732" fill="blue" />
+    <circle cx="196.85304266316638" cy="338.99923041588374" r="4.175749168938792" fill="gold" />
+    <animate attributeName="opacity" from="0" to="1" begin="4.0s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="4.5s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="3.6s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品17 -->
   <g opacity="0">
-      <path d="M41.60615796280305,404.114788495926 c-3.298733569631905,0 -3.298733569631905,6.59746713926381 0,6.59746713926381 c3.298733569631905,0 3.298733569631905,-6.59746713926381 0,-6.59746713926381 z" fill="red" />
+    <circle cx="204.54986043387802" cy="116.35536893189058" r="3.278228618025732" fill="blue" />
+    <animate attributeName="opacity" from="0" to="1" begin="4.1s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="4.6s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品18 -->
   <g opacity="0">
-      <polygon points="42.07850228643632,337.6478407346748 43.87313894325942,341.2841717777077 47.88606850282883,341.8672845750911 44.98228539463257,344.6977735514152 45.667775600082514,348.69448812250613 42.07850228643632,346.8074954716234 38.48922897279012,348.69448812250613 39.17471917824007,344.6977735514152 36.27093607004381,341.8672845750911 40.28386562961322,341.2841717777077" fill="silver" />
+    <path d="M41.60615796280305,404.114788495926 c-3.298733569631905,0 -3.298733569631905,6.59746713926381 0,6.59746713926381 c3.298733569631905,0 3.298733569631905,-6.59746713926381 0,-6.59746713926381 z" fill="red" />
+    <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="4.7s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品19 -->
   <g opacity="0">
-      <polygon points="230.38105419676003,370.56327839160485 233.13091577305133,376.13510652511275 239.27979318635343,377.0285907131639 234.83042369155672,381.3656540671958 235.88077734934265,387.4896857973299 230.38105419676003,384.59831022797533 224.88133104417741,387.4896857973299 225.93168470196335,381.3656540671958 221.48231520716664,377.0285907131639 227.63119262046874,376.13510652511275" fill="gold" />
+    <polygon points="42.07850228643632,337.6478407346748 43.87313894325942,341.2841717777077 47.88606850282883,341.8672845750911 44.98228539463257,344.6977735514152 45.667775600082514,348.69448812250613 42.07850228643632,346.8074954716234 38.48922897279012,348.69448812250613 39.17471917824007,344.6977735514152 36.27093607004381,341.8672845750911 40.28386562961322,341.2841717777077" fill="silver" />
+    <animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="4.8s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="3.9000000000000004s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 装飾品20 -->
   <g opacity="0">
-      <circle cx="224.90261668920422" cy="188.37728962411364" r="3.509171173946674" fill="blue" />
+    <polygon points="230.38105419676003,370.56327839160485 233.13091577305133,376.13510652511275 239.27979318635343,377.0285907131639 234.83042369155672,381.3656540671958 235.88077734934265,387.4896857973299 230.38105419676003,384.59831022797533 224.88133104417741,387.4896857973299 225.93168470196335,381.3656540671958 221.48231520716664,377.0285907131639 227.63119262046874,376.13510652511275" fill="gold" />
+    <animate attributeName="opacity" from="0" to="1" begin="4.4s" dur="0.5s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" begin="4.9s" dur="1s" repeatCount="indefinite" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="4.0s" dur="0.5s" fill="freeze" />
-    </g>
+  <!-- 残りの装飾品も同様に追加してください -->
+
+  <!-- ツリーのトップに星を追加 -->
+  <polygon points="200.0,28.8 205.87785252292474,40.709830056250496 219.02113032590307,42.61966011250102 209.51056516295154,51.89016994374944 211.75570504584945,64.98033988749891 200.0,58.8 188.24429495415055,64.98033988749891 190.48943483704846,51.89016994374944 180.97886967409693,42.61966011250102 194.12214747707526,40.709830056250496" fill="yellow" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.5s" fill="freeze" />
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 200 50" to="360 200 50" begin="2.9s" dur="5s" repeatCount="indefinite" />
+  </polygon>
+
+  <!-- プレゼントをツリーの下に配置 -->
   <g opacity="0">
-      <circle cx="78.57855609736833" cy="293.10196493337287" r="2.2485272736185995" fill="green" />
+    <!-- プレゼント1 -->
+    <rect x="150" y="470" width="30" height="30" fill="red" />
+    <line x1="165" y1="470" x2="165" y2="500" stroke="yellow" stroke-width="4" />
+    <line x1="150" y1="485" x2="180" y2="485" stroke="yellow" stroke-width="4" />
+    <!-- プレゼント2 -->
+    <rect x="220" y="470" width="30" height="30" fill="blue" />
+    <line x1="235" y1="470" x2="235" y2="500" stroke="white" stroke-width="4" />
+    <line x1="220" y1="485" x2="250" y2="485" stroke="white" stroke-width="4" />
+    <!-- プレゼント3 -->
+    <rect x="190" y="470" width="20" height="30" fill="green" />
+    <line x1="200" y1="470" x2="200" y2="500" stroke="red" stroke-width="3" />
+    <line x1="190" y1="485" x2="210" y2="485" stroke="red" stroke-width="3" />
+    <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="1s" fill="freeze" />
+  </g>
 
-      <animate attributeName="opacity" from="0" to="1" begin="4.1s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="30.04164769619483" cy="253.3078824971158" r="3.161747221122661" fill="red" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="317.9227247225069" cy="439.6261774163752" r="3.239316319292162" fill="red" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="4.300000000000001s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="193.224447341327" cy="439.1732821127918" r="2.691698429821198" fill="green" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="4.4s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="238.27005428214653" cy="183.3532362863155" r="3.864431845663641" fill="purple" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <path d="M345.5029063530048,289.8797928812926 c-2.7181078281261577,0 -2.7181078281261577,5.436215656252315 0,5.436215656252315 c2.7181078281261577,0 2.7181078281261577,-5.436215656252315 0,-5.436215656252315 z" fill="silver" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="4.6s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <path d="M244.5045633211708,299.66031391812237 c-4.312150182835236,0 -4.312150182835236,8.624300365670472 0,8.624300365670472 c4.312150182835236,0 4.312150182835236,-8.624300365670472 0,-8.624300365670472 z" fill="purple" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="4.7s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="127.08216910437766" cy="261.10333986917954" r="2.7969196570077695" fill="silver" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="4.800000000000001s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="58.49344577721948" cy="221.7982528988415" r="4.172148519456291" fill="silver" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="4.9s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <path d="M230.72325761415487,360.42553583289794 c-4.4203734039999425,0 -4.4203734039999425,8.840746807999885 0,8.840746807999885 c4.4203734039999425,0 4.4203734039999425,-8.840746807999885 0,-8.840746807999885 z" fill="red" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <path d="M214.50913596590448,306.7059288974539 c-2.6880336856678695,0 -2.6880336856678695,5.376067371335739 0,5.376067371335739 c2.6880336856678695,0 2.6880336856678695,-5.376067371335739 0,-5.376067371335739 z" fill="red" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="5.1s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="127.80455326349244" cy="281.93937842212955" r="2.5500324955622644" fill="red" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="5.2s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <path d="M90.81879965308622,406.7663861436151 c-4.5035781122570135,0 -4.5035781122570135,9.007156224514027 0,9.007156224514027 c4.5035781122570135,0 4.5035781122570135,-9.007156224514027 0,-9.007156224514027 z" fill="silver" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="5.300000000000001s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <path d="M177.597867642477,120.89448281369235 c-2.9597032495101985,0 -2.9597032495101985,5.919406499020397 0,5.919406499020397 c2.9597032495101985,0 2.9597032495101985,-5.919406499020397 0,-5.919406499020397 z" fill="gold" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="5.4s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="298.18462647705843" cy="107.64240264542238" r="3.1493087541161144" fill="purple" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="35.12516610553777" cy="130.0748761387802" r="2.8987934259524266" fill="red" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="5.6s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <path d="M212.23228017259703,242.89507081380194 c-3.6505395310323174,0 -3.6505395310323174,7.301079062064635 0,7.301079062064635 c3.6505395310323174,0 3.6505395310323174,-7.301079062064635 0,-7.301079062064635 z" fill="purple" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="5.7s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="166.31441399422215" cy="160.25236167052208" r="2.2251982058002615" fill="silver" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="5.800000000000001s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="238.4328690437949" cy="392.85967364909305" r="2.761544843631044" fill="silver" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="5.9s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="42.90554152715545" cy="213.22292438461767" r="4.6134585283262775" fill="purple" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="6.0s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <path d="M375.2190685627911,151.7324110898458 c-4.607458432556553,0 -4.607458432556553,9.214916865113105 0,9.214916865113105 c4.607458432556553,0 4.607458432556553,-9.214916865113105 0,-9.214916865113105 z" fill="purple" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="6.1000000000000005s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <path d="M22.054730197420756,250.54831729098208 c-3.538119494008106,0 -3.538119494008106,7.076238988016212 0,7.076238988016212 c3.538119494008106,0 3.538119494008106,-7.076238988016212 0,-7.076238988016212 z" fill="blue" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="6.2s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="300.36604798397644" cy="360.23178607608963" r="2.667238611067791" fill="blue" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="6.3s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <polygon points="379.0051865582461,113.09596994717124 381.8015080892426,118.76193623110089 388.054273119497,119.6705161735218 383.52972983887156,124.08085585852217 384.59782962023905,130.30835542836437 379.0051865582461,127.36812897169744 373.4125434962532,130.30835542836437 374.4806432776207,124.08085585852217 369.95609999699525,119.6705161735218 376.20886502724966,118.76193623110089" fill="red" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="6.4s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="95.80735049970161" cy="231.04576709175177" r="2.0239517094524007" fill="gold" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <polygon points="267.51726658042253,400.29903537017526 270.0742323631941,405.4800139356776 275.7917816696123,406.31082248109374 271.6545241250174,410.3436518749749 272.6311981459657,416.03809835968826 267.51726658042253,413.34954543043415 262.40333501487936,416.03809835968826 263.38000903582764,410.3436518749749 259.24275149123275,406.31082248109374 264.960300797651,405.4800139356776" fill="blue" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="6.6000000000000005s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <polygon points="26.939699321700445,226.79374408522168 29.044534550042112,231.05860608510815 33.75108920205037,231.74250850812126 30.34539426187541,235.06224060439203 31.14936977838378,239.74977754668902 26.939699321700445,237.5366228158418 22.73002886501711,239.74977754668902 23.53400438152548,235.06224060439203 20.128309441350517,231.74250850812126 24.834864093358778,231.05860608510815" fill="red" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="6.7s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <polygon points="317.38944466510054,423.5941361527294 319.42788921652846,427.7244759480729 323.9859898018853,428.3868067325105 320.6877172334929,431.6018278955566 321.4663337679563,436.1415106274779 317.38944466510054,433.99816318544714 313.31255556224477,436.1415106274779 314.0911720967082,431.6018278955566 310.7928995283158,428.3868067325105 315.3510001136726,427.7244759480729" fill="silver" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="6.800000000000001s" dur="0.5s" fill="freeze" />
-    </g>
-  <g opacity="0">
-      <circle cx="267.10792786616764" cy="117.2807415344686" r="3.290233393244294" fill="blue" />
-
-      <animate attributeName="opacity" from="0" to="1" begin="6.9s" dur="0.5s" fill="freeze" />
-    </g>
-  <polygon points="200.0,28.79999999999997 205.87785252292474,40.709830056250496 219.02113032590307,42.61966011250102 209.51056516295154,51.89016994374944 211.75570504584945,64.98033988749891 200.0,58.79999999999997 188.24429495415055,64.98033988749891 190.48943483704846,51.89016994374944 180.97886967409693,42.61966011250102 194.12214747707526,40.709830056250496" fill="yellow" opacity="0">
-      <set attributeName="opacity" to="1" begin="2.9000000000000004s" dur="0.5s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
-    </polygon>
+  <text x="200" y="450" fill="darkgreen" font-size="30px" font-family="serif" text-anchor="middle" opacity="0">
+    Happy Christmas!
+    <animate attributeName="opacity" from="0" to="1" begin="4.5s" dur="2s" fill="freeze" />
+  </text>
 </svg>
