@@ -20,7 +20,7 @@ const Home = () => {
       setLoading(true);
       const response = await fetch(`https://example.execute-api.ap-northeast-1.amazonaws.com/QiitaAdventCalenderAPI?user_id=${encodeURIComponent(userId)}`);
       const data = await response.json();
-      setCount(24);
+      setCount(data.count || 0);
     } catch (error) {
       console.error(error);
       setCount(0);
