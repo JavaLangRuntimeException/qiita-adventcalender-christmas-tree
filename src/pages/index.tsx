@@ -18,7 +18,7 @@ const Home = () => {
   const fetchArticleCount = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`https://example.execute-api.ap-northeast-1.amazonaws.com/QiitaAdventCalenderAPI?user_id=${encodeURIComponent(userId)}`);
+      const response = await fetch(`https://sphk5k5en0.execute-api.us-east-1.amazonaws.com/default/qiita-2025adventcal-christmastree?user_id=${encodeURIComponent(userId)}`);
       const data = await response.json();
       setCount(data.count || 0);
     } catch (error) {

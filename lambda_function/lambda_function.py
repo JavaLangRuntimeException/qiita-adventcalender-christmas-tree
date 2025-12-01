@@ -31,7 +31,7 @@ def lambda_handler(event, context):
         query_params = {
             'page': str(page),
             'per_page': str(per_page),
-            'query': f'user:{user_id} created:>=2024-12-01 created:<=2024-12-15'
+            'query': f'user:{user_id} created:>=2025-12-01 created:<=2025-12-25'
         }
 
         url = 'https://qiita.com/api/v2/items'
