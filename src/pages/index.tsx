@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import Image from 'next/image';
 import Loading from '../components/Loading';
 import { FaSnowflake } from 'react-icons/fa';
@@ -29,20 +29,29 @@ const Home = () => {
     }
   };
 
-  const Snowflakes = () => {
-    const snowflakes = Array.from({ length: 50 });
+  // 雪の設定をメモ化して、再レンダリング時に再生成されないようにする
+  const snowflakeConfigs = useMemo(() => {
+    return Array.from({ length: 50 }, (_, index) => ({
+      id: index,
+      left: Math.random() * 100,
+      fontSize: Math.random() * 10 + 10,
+      animationDelay: Math.random() * 5,
+      animationDuration: Math.random() * 5 + 5,
+    }));
+  }, []); // 空の依存配列で初回のみ生成
 
+  const Snowflakes = () => {
     return (
       <>
-        {snowflakes.map((_, index) => {
+        {snowflakeConfigs.map((config) => {
           const style = {
-            left: `${Math.random() * 100}vw`,
-            fontSize: `${Math.random() * 10 + 10}px`,
-            animationDelay: `${Math.random() * 5}s`,
-            animationDuration: `${Math.random() * 5 + 5}s`,
+            left: `${config.left}vw`,
+            fontSize: `${config.fontSize}px`,
+            animationDelay: `${config.animationDelay}s`,
+            animationDuration: `${config.animationDuration}s`,
           };
           return (
-            <FaSnowflake key={index} className="snowflake" style={style} />
+            <FaSnowflake key={config.id} className="snowflake" style={style} />
           );
         })}
       </>
@@ -52,11 +61,6 @@ const Home = () => {
   return (
     <div
       className={`flex flex-col items-center justify-center min-h-screen bg-christmasGreen text-blue-300 ${kaiseiDecol.className}`}
-      style={{
-        backgroundImage: 'url("/images/snow_background.jpg")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
     >
       <Snowflakes />
       <h1 className="text-6xl md:text-8xl font-bold mb-8 text-christmasRed flex items-center z-10">
